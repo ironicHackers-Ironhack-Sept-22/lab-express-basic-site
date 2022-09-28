@@ -18,7 +18,7 @@ app.get("/", (request, response, next) => {
 
 
 
-app.get("/about.html", (request, response, next) => {
+app.get("/about", (request, response, next) => {
     response.sendFile(__dirname + './about.html');
 
 });
